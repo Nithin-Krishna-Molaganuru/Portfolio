@@ -109,7 +109,7 @@ b{
   text-shadow: 0.2rem 0.2rem 0.2rem #000000;
 }
 
-button, .download-btn{
+/* button, .download-btn{
   text-decoration: none;
   color: #000000;
   position: absolute;
@@ -117,6 +117,28 @@ button, .download-btn{
   height: 2.5vh;
   bottom: 3vh;
   right: 2vw;
+} */
+
+.download-btn{
+  text-decoration: none;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  width: 4.5vw;
+  height: 2.5vh;
+  bottom: 6vh;
+  right: 4.2vw;
+}
+
+.popup-button{
+  text-decoration: none;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  width: 4.5vw;
+  height: 2.5vh;
+  top: 63%;
+  right: 48%;
 }
 
 .goal{
@@ -621,4 +643,5 @@ p.desc{margin:0;color:var(--muted);font-size:0.95rem;line-height:1.45}
 .popup.show {
   display: flex;
 }
+
 
